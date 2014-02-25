@@ -9,7 +9,7 @@ end
 # Decide if it would return true or false for these inputs without running the code.
 
 # a - true
-puts provide_mortgage? (30_000, 50_000, 20_0000)
+puts provide_mortgage? (30_000, 50_000, 200_000)
 # b - false
 puts provide_mortgage? (30_000, 50_000, 300_000)
 # c - true
