@@ -37,4 +37,8 @@ describe "Roman numerals" do
   it "should convert 40 into XL" do
     expect(to_roman(40)).to eq("XL")
   end
+
+  it "should convert 49 into XLIX" do
+    expect(to_roman(49)).to eq("XLIX")
+  end
 end
