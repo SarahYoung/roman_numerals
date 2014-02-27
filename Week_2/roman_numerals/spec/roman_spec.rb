@@ -45,4 +45,8 @@ describe "Roman numerals" do
   it "should convert 50 into L" do
     expect(to_roman(50)).to eq("L")
   end
+
+  it "should convert 100 into C" do
+    expect(to_roman(100)).to eq("C")
+  end
 end
