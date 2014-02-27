@@ -57,4 +57,8 @@ describe "Roman numeral converter" do
   it "should convert 500 into D" do
     expect(to_roman(500)).to eq("D")
   end
+
+  it "should convert 900 into CM" do
+    expect(to_roman(900)).to eq("CM")
+  end
 end
