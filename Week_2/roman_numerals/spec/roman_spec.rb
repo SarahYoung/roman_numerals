@@ -1,6 +1,6 @@
 require 'roman'
 
-describe "Roman numerals" do
+describe "Roman numeral converter" do
 
   it "should convert 1 into I" do
     expect(to_roman(1)).to eq("I")
@@ -52,5 +52,9 @@ describe "Roman numerals" do
 
   it "should convert 400 into CD" do
     expect(to_roman(400)).to eq("CD")
+  end
+
+  it "should convert 500 into D" do
+    expect(to_roman(500)).to eq("D")
   end
 end
