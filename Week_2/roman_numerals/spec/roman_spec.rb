@@ -1,4 +1,5 @@
 require 'roman'
+
 describe "Roman numerals" do
 
   it "should convert 1 into I" do
@@ -31,5 +32,9 @@ describe "Roman numerals" do
 
   it "should convert 14 into XIV" do
     expect(to_roman(14)).to eq("XIV")
+  end
+
+  it "should convert 40 into XL" do
+    expect(to_roman(40)).to eq("XL")
   end
 end
